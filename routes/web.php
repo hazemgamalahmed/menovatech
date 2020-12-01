@@ -23,6 +23,7 @@ Route::get('about', [App\Http\Controllers\HomeController::class,'about'])->name(
 
 Route::get('admin/{any?}', function () {
     return view('backEnd');
+    
 });
 Route::get('admin/{any}/{any2}', function () {
     return view('backEnd');

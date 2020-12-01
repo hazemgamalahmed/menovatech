@@ -66,25 +66,27 @@ Menova Tech | Home Page
         <div class="container">
             <h1 class="sec_title text-uppercase">OUR PROJECTS</h1>
             <p class="sec_desc">Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam quis notru exercit ation Lorem ipsum dolor sit amet.Veniam quis notru exercit.</p>
-            <div class="toolbar mb2 mt2 margin_top_4">
+            <!-- <div class="toolbar mb2 mt2 margin_top_4">
                 <button class="fil_btn fil-cat active" data-rel="all">All</button>
                 <button class="fil_btn fil-cat" data-rel="web">Websites</button>
                 <button class="fil_btn fil-cat" data-rel="design">Designs</button>
                 <button class="fil_btn fil-cat" data-rel="social">Social Media</button>
-            </div>
+            </div> -->
             <div id="portfolio_items" class="margin_top">
                 <div class="row">
+                	@foreach($projects as $project)
                     <div class="col-sm-6 col-md-4 portfolio_item scale-anm web all">
                         <a href="#">
                             <div class="portfolio_img">
-                                <img src="front/img/portfolio1.jpg" alt="pic">
+                     <img src="{{$project->pics}}" alt="pic">
                             </div>
                             <div class="portfolio_content">
-                                <h3 class="text-uppercase">web project</h3>
+                                <h3 class="text-uppercase">{{$project->name}}</h3>
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-6 col-md-4 portfolio_item scale-anm design all">
+                    @endforeach
+                   <!--  <div class="col-sm-6 col-md-4 portfolio_item scale-anm design all">
                         <a href="#">
                             <div class="portfolio_img">
                                 <img src="front/img/portfolio2.jpg" alt="pic">
@@ -93,8 +95,8 @@ Menova Tech | Home Page
                                 <h3 class="text-uppercase">disigning project</h3>
                             </div>
                         </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 portfolio_item scale-anm social all">
+                    </div> -->
+                   <!--  <div class="col-sm-6 col-md-4 portfolio_item scale-anm social all">
                         <a href="#">
                             <div class="portfolio_img">
                                 <img src="front/img/portfolio3.jpg" alt="pic">
@@ -103,8 +105,8 @@ Menova Tech | Home Page
                                 <h3 class="text-uppercase">social project</h3>
                             </div>
                         </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 portfolio_item scale-anm web all">
+                    </div> -->
+                    <!-- <div class="col-sm-6 col-md-4 portfolio_item scale-anm web all">
                         <a href="#">
                             <div class="portfolio_img">
                                 <img src="front/img/portfolio4.jpg" alt="pic">
@@ -113,8 +115,8 @@ Menova Tech | Home Page
                                 <h3 class="text-uppercase">web project</h3>
                             </div>
                         </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 portfolio_item scale-anm design all">
+                    </div> -->
+                   <!--  <div class="col-sm-6 col-md-4 portfolio_item scale-anm design all">
                         <a href="#">
                             <div class="portfolio_img">
                                 <img src="front/img/portfolio5.jpg" alt="pic">
@@ -123,8 +125,8 @@ Menova Tech | Home Page
                                 <h3 class="text-uppercase">disigning project</h3>
                             </div>
                         </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 portfolio_item scale-anm social all">
+                    </div> -->
+                   <!--  <div class="col-sm-6 col-md-4 portfolio_item scale-anm social all">
                         <a href="#">
                             <div class="portfolio_img">
                                 <img src="front/img/portfolio6.jpg" alt="pic">
@@ -133,7 +135,7 @@ Menova Tech | Home Page
                                 <h3 class="text-uppercase">social project</h3>
                             </div>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <a class="btn_style blu_grad_btn margin_top_4 d-inline-block text-uppercase" href="portfolio.html">see more projects</a>

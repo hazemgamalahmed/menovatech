@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Service;
+use App\Models\Project;
 
 class HomeController extends Controller
 { 
@@ -25,7 +26,9 @@ class HomeController extends Controller
     public function index()
     {
         $services=Service::all();
-        return view('front.homeBage',compact('services'));
+        $projects = Project::orderBy('id', 'asc')->paginate(6);
+        return view('front.homeBage',compact(['services', 'projects']));
+
     }
     public function service(Service $service)
     {
