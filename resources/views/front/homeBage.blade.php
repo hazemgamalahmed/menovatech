@@ -18,10 +18,9 @@ Menova Tech | Home Page
             <div class="row align-items-center">
                 <div class="col-md-12 col-lg-6 padding_right">
                     <div class="hero_content">
-                        <h1 class="text-uppercase hero_tit text_animation" data-in-effect="bounceIn">START YOUR BUSINESS WITH ZAGENCY</h1>
-                        <p class="hero_desc wow fadeInDown" data-wow-delay="1.5s">Lorem Ipsum
-                            is simply dummy text of the printing and typesetting industry.Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s
+                        <h1 class="text-uppercase hero_tit text_animation" data-in-effect="bounceIn">START YOUR BUSINESS WITH MENOVATECH</h1>
+                        <p class="hero_desc wow fadeInDown" data-wow-delay="1.5s">Menovatech is a platform that provides all IT Supporting Services, IT Software Development Solutions and Digital Marketing Services. We deliver different levels of IT Supporting, IT Outsourcing Services, Software Development Solutions and all IT Services depending upon the nature and requirements of our partners and clients.
+
                         </p>
                     </div>
                     <form id="subscribe_form" class="wow fadeInUp margin_top" data-wow-delay="1.5s" action="https://ah-theme.us17.list-manage.com/subscribe/post?u=1deb8f74c591046810c8ac1ec&amp;id=ebe56afd26" method="post">
@@ -76,14 +75,17 @@ Menova Tech | Home Page
                 <div class="row">
                 	@foreach($projects as $project)
                     <div class="col-sm-6 col-md-4 portfolio_item scale-anm web all">
-                        <a href="#">
+                        
                             <div class="portfolio_img">
                      <img src="{{$project->pics}}" alt="pic">
                             </div>
                             <div class="portfolio_content">
                                 <h3 class="text-uppercase">{{$project->name}}</h3>
                             </div>
-                        </a>
+                        <div class="portfolio_content">
+                                <p class="text-uppercase">{{$project->description}}</p>
+                            </div>
+
                     </div>
                     @endforeach
                    <!--  <div class="col-sm-6 col-md-4 portfolio_item scale-anm design all">

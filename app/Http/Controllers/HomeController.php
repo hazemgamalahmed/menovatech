@@ -26,7 +26,7 @@ class HomeController extends Controller
     public function index()
     {
         $services=Service::all();
-        $projects = Project::orderBy('id', 'asc')->paginate(6);
+        $projects = Project::orderBy('id', 'desc')->paginate(6);
         return view('front.homeBage',compact(['services', 'projects']));
 
     }
@@ -34,6 +34,16 @@ class HomeController extends Controller
     {
         $services=Service::all();
         return view('front.service',compact('service','services'));
+    }
+    // public function service(Service $service)
+    // {
+    //     $services=Service::all();
+    //     return view('front.service',compact('service','services'));
+    // }
+    public function project(Project $project){
+        return view('front.project', [
+            'project' => $project
+        ]);
     }
     public function about()
     {

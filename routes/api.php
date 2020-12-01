@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\API\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,6 +24,8 @@ Route::group(["middleware" => "auth:api"], function(){
 
     /////////////////////////Products/////
     Route::resource('services', App\Http\Controllers\API\ServicesController::class);
+
+    Route::apiResource('projects', ProjectController::class);
     
     // get user info
     Route::get("user", [App\Http\Controllers\API\AuthController::class,'user']);

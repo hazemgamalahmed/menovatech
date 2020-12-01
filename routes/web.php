@@ -17,7 +17,11 @@ use Illuminate\Support\Facades\Route;
 //     return view('front.homeBage');
 // });
 Route::get('', [App\Http\Controllers\HomeController::class,'index'])->name('home');
+
 Route::get('service/{service}', [App\Http\Controllers\HomeController::class,'service'])->name('service');
+
+Route::get('project/{project}', [App\Http\Controllers\HomeController::class,'project'])->name('project');
+
 Route::get('about', [App\Http\Controllers\HomeController::class,'about'])->name('about');
 // Route::resource('orders', App\Http\Controllers\API\OrdersController::class);
 

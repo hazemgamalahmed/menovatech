@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
-
+namespace App\Http\Controllers\Api;
+use App\Http\Controllers\Controller;
+use App\Http\Requests\ProjectRequest;
 use App\Models\Project;
 use Illuminate\Http\Request;
 
@@ -14,7 +15,9 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        //
+        $projects = Project::all();
+        return response()->json($projects);
+
     }
 
     /**
@@ -33,9 +36,10 @@ class ProjectController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ProjectRequest $request)
     {
-        //
+        $project = Project::create($request->all());
+        return response()->json('your data has been sent');
     }
 
     /**
@@ -46,7 +50,8 @@ class ProjectController extends Controller
      */
     public function show(Project $project)
     {
-        //
+        // $project = $project;
+        return response()->json($project);
     }
 
     /**
@@ -67,9 +72,10 @@ class ProjectController extends Controller
      * @param  \App\Models\Project  $project
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Project $project)
+    public function update(ProjectRequest $request, Project $project)
     {
-        //
+        $project->update($request->all());
+        return response()->json("your data is updated");
     }
 
     /**
@@ -80,6 +86,8 @@ class ProjectController extends Controller
      */
     public function destroy(Project $project)
     {
-        //
+        $project->delete();
+        return response()->json("your data is deleted");
     }
+    
 }
