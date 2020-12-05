@@ -53,7 +53,9 @@ Menova Tech | Home Page
                     <div class="serv_item margin_top_4 wow fadeInUp" data-wow-delay="0s">
                         
                         <h2 class="margin_top margin_bottom serv_tit">Digital Marketing</h2>
-                        <p class="serv_desc">Description</p>
+                        <p class="serv_desc">We are the fastest growing Digital Marketing and web design Company, managed to approve our success in
+                         internet solutions field in a short period of time.
+                        </p>
                         <div class="serv_hover text-white bg_blue_grad">
                         </div>
                     </div>
@@ -62,8 +64,9 @@ Menova Tech | Home Page
                 <a href="/services/it-solutions" class="col-md-12 col-lg-3">
                     <div class="serv_item margin_top_4 wow fadeInUp" data-wow-delay="0s">
                         
-                        <h2 class="margin_top margin_bottom serv_tit">IT Services</h2>
-                        <p class="serv_desc"></p>
+                        <h2 class="margin_top margin_bottom serv_tit">IT <div></div> Services</h2>
+                        <p class="serv_desc">Menovatech delivers different levels of IT Supporting, IT Outsourcing
+                         and all IT Services depending upon the nature and situations of our business partners.</p>
                         <div class="serv_hover text-white bg_blue_grad">
                         </div>
                     </div>
@@ -72,8 +75,10 @@ Menova Tech | Home Page
                 <a href="/services/software-development" class="col-md-12 col-lg-3">
                     <div class="serv_item margin_top_4 wow fadeInUp" data-wow-delay="0s">
                         
-                        <h2 class="margin_top margin_bottom serv_tit">Software development solution</h2>
-                        <p class="serv_desc"></p>
+                        <h2 class="margin_top margin_bottom serv_tit">Software development</h2>
+                        <p class="serv_desc">We have our experienced teamwork and also have a big network of freelancers with many projects categorized 
+                        according industries,
+                         You will get your App in a professional and fast way.</p>
                         <div class="serv_hover text-white bg_blue_grad">
                         </div>
                     </div>
@@ -106,17 +111,17 @@ Menova Tech | Home Page
                 <div class="row">
                 	@foreach($projects as $project)
                     <div class="col-sm-6 col-md-4 portfolio_item scale-anm web all">
-                        
+                        <a href="{{$project->link}}" target="_blank">
                             <div class="portfolio_img">
                      <img src="{{$project->pics}}" alt="pic">
                             </div>
                             <div class="portfolio_content">
-                                <h3 class="text-uppercase">{{$project->name}}</h3>
+                                <h3 class="">{{$project->name}}</h3>
                             </div>
                         <div class="portfolio_content pt-3 pl-1 pr-1">
                                 <p class="">{{$project->description}}</p>
                             </div>
-
+                        </a>
                     </div>
                     @endforeach
                    <!--  <div class="col-sm-6 col-md-4 portfolio_item scale-anm design all">
@@ -171,7 +176,7 @@ Menova Tech | Home Page
                     </div> -->
                 </div>
             </div>
-            <a class="btn_style blu_grad_btn margin_top_4 d-inline-block text-uppercase" href="portfolio.html">see more projects</a>
+            <!-- <a class="btn_style blu_grad_btn margin_top_4 d-inline-block text-uppercase" href="portfolio.html">see more projects</a> -->
         </div>
     </section>
       <!--========== start Testimonial section =============-->
@@ -277,7 +282,7 @@ Menova Tech | Home Page
                         <div class="contact__us">
                             <div class="container">
                                 <h1 class="text-uppercase text-center"><span>Get In Touch</span></h1>
-                                <p class="sec_desc margin_bottom text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <!-- <p class="sec_desc margin_bottom text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
                                 <div class="row contact-us margin_top_4 wow fadeInUp">
                                     <div class="col-sm-12 col-md-6 col-lg-6">
                                         <div class="contact_info text-left">
@@ -285,28 +290,28 @@ Menova Tech | Home Page
                                                 <i class="fas fa-map-marker-alt margin_right info_icon"></i>
                                                 <div>
                                                     <p class="text-uppercase text_bold">location</p>
-                                                    <p class="text-uppercase"> 10,Park Street,London</p>
+                                                    <p class="text-uppercase"> 6 Al Qoudss, Alexandria, Egypt</p>
                                                 </div>
                                             </div>
                                             <div class="d-flex contact_item align-items-center margin_bottom align-content-center">
                                                 <i class="fas fa-mobile-alt margin_right info_icon"></i>
                                                 <div>
                                                     <p class="text-uppercase text_bold">phone</p>
-                                                    <p class="text-uppercase"> <a href="tel:+15173977100">(+1) 517 397 7100</a></p>
+                                                    <p class="text-uppercase"> <a href="tel:+201005819141">+20 100 5819 141</a></p>
                                                 </div>
                                             </div>
                                             <div class="d-flex contact_item align-items-center margin_bottom align-content-center">
                                                 <i class="far fa-envelope margin_right info_icon"></i>
                                                 <div>
                                                     <p class="text-uppercase text_bold">mail</p>
-                                                    <p class="text-uppercase"><a href="mailto:abcdefg@gmail.com">abcdefg@gmail.com</a></p>
+                                                    <p class="text-uppercase"><a href="menovatech@info.com">menovatech@info.com</a></p>
                                                 </div>
                                             </div>
                                             <div class="d-flex contact_item align-items-center margin_bottom align-content-center">
                                                 <i class="far fa-clock margin_right info_icon"></i>
                                                 <div>
                                                     <p class="text-uppercase text_bold">WORKING HOURS</p>
-                                                    <p class="text-uppercase">Mon-Fri 9.00AM to 5.00PM.</p>
+                                                    <p class="text-uppercase">Sunday-Thursday 9.00AM to 5.00PM.</p>
                                                 </div>
                                             </div>
                                             <a id="send_message" class="d-inline-block btn_style blu_grad_btn text-uppercase text-white" href="#">send message</a>
@@ -330,7 +335,7 @@ Menova Tech | Home Page
                                     </div>
                                     <div class="col-sm-12 col-md-6 col-lg-6">
                                         <div class="map">
-                                            <div style="width: 100%"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d421701.2454303203!2d-90.21538947620296!3d34.33670749678344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88801b5b94e09a8b%3A0xabd6bc8b4f8f7ebb!2sUnited+States+Postal+Service!5e0!3m2!1sen!2seg!4v1536167131135" allowfullscreen></iframe></div><br />
+                                            <div style="width: 100%"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.3141959345!2d29.961546214988626!3d31.23972438146333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c562a40c345d%3A0x26b9fe26eb0c8aa!2sZodiac%20Coworking%20Space!5e0!3m2!1sen!2seg!4v1607168296156!5m2!1sen!2seg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div><br />
                                         </div>
                                     </div>
                                 </div>

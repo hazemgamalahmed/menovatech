@@ -33,11 +33,56 @@ Venice Decor | Software Development Page
           <div class="col-md-12 col-lg-8 left-side">
             <div class="article">
               <div class="article_img br_radius text-center d-flex align-items-center">
-                <img class="w-100 br_radius margin_bottom" src='' alt="article image">
+              <img class="w-100 br_radius margin_bottom mx-auto" src="{{ asset('assets/images/sw.png') }}" alt="article image">
               </div>
               <div class="article_content margin_top">
-               Content 
-                
+
+            <h2> Why we are your choice?</h2>
+We have our experienced teamwork and also have a big network of freelancers with many projects categorized according industries, 
+So you will get your App in a professional and fast way.
+
+<br>
+<br>
+<h2>Our Target </h2>
+One of Menovatech Services is to be a trusted partner as a software development house we design and develop professional Business 
+Solutions which are presented to our customers with the most friendly and easy to use interfaces. And we have an experienced teamwork
+ to analysis and develop our client’s needs,
+ <br>
+ <br>
+
+ <h2>Our Values</h2>
+ <ul class="bullet">
+<li>	Innovative  </li>
+<li>	Experience </li>
+<li>	Flexibility </li>
+<li>Excellency </li>
+<li>	Commitment </li>
+<li>	Experienced Team work </li>
+</ul>
+<br>
+<br>
+
+<h2>Our Software Developing Fields:</h2>
+<ul class="bullet">
+<li>	Desktop Development Solutions  </li>
+<li>	Web Development Solutions </li>
+<li>	Mobile Applications Solutions </li>
+<li>	Business Apps analysis  </li>
+<li>	Analysis clients Requirements in A professional manner. </li>
+</ul>
+<br>
+<br>
+ 
+<h2>Our Partners:</h2>
+<ul class="bullet">
+<li>Learnadora </li>
+<li>TheBigLab</li>
+<li>Mattagerna </li>                                                                 
+</ul>
+
+               <br>
+               <br>
+               <br>
                 <div class="social d-flex align-items-center">
                   <h3 class="text-uppercase margin_right">share on : </h3>
                   <span><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></span>
