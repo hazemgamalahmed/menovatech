@@ -33,17 +33,51 @@ Venice Decor | Business Development Page
           <div class="col-md-12 col-lg-8 left-side">
             <div class="article">
               <div class="article_img br_radius text-center d-flex align-items-center">
-                <img class="w-100 br_radius margin_bottom" src='' alt="article image">
+              <img class="w-100 br_radius margin_bottom mx-auto" src="{{ asset('assets/images/bd.png') }}" alt="article image">
               </div>
               <div class="article_content margin_top">
-               Content 
+             
+              <h2>Our Team </h2>
+<p> We are the fastest growing IT Services, Digital Marketing and Web Design & Development Company, managed to approve our success in internet solutions
+ field in a short period of time. We seek to provide our services to our clients with more flexibility and efficiency by the following elements:</p>
+ <br>
+ <br>
+<h2>Specialized Teamwork</h2>
+<p> Our attitude based on creating the best outcome of the new technology by using the creative teamwork skill to motivate
+ it well in order to provide the best quality for our client.</p>
+ <br>
+ <br>
+
+ <h2>Creative Teamwork </h2>
+<p>  we have faith that the future is requires to keep pace with the renewed technology. So, our teamwork thinking to 
+take the advantage of the best software solutions.</p>
+<br>
+<br>
+
+<h2> Collaborative Environment</h2>
+<p> we have a professional team, work with the team spirit to provide the best quality services for clients.</p>
+<br>
+<br>
+
+<h2> Our services</h2>
+<p> Menovatech-Marketing is gladly serving more than 200 clients in Egypt & K.S.A,  providing them with 
+highest value of Business Development, IT Services, Software Development and Digital Marketing Services.
+<ul class="bullet">
+<li>	Sales  </li>
+<li>	Marketing </li>
+<li>	Product Management </li>
+<li>	Project Management </li>
+<li>	Vendor Management </li>
+
+</ul>
+</p> 
                 
-                <div class="social d-flex align-items-center">
+                <!-- <div class="social d-flex align-items-center">
                   <h3 class="text-uppercase margin_right">share on : </h3>
                   <span><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></span>
                   <span><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></span>
                   <span><a class="google" href="#"><i class="fab fa-google-plus-g"></i></a></span>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

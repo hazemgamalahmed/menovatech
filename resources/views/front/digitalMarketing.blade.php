@@ -51,21 +51,30 @@ to support its clients with full integrated internet marketing strategy and stra
 </ul>
 <!-- </div> -->
 
+<br>
+<br>
 
 <h2>Our Team </h2>
 <p> We are the fastest growing Digital Marketing and web design Company, managed to approve our success in internet solutions
  field in a short period of time. We seek to provide our services to our clients with more flexibility and efficiency by the following elements:</p>
-
+ <br>
+ <br>
 <h2>Specialized Teamwork</h2>
 <p> Our attitude based on creating the best outcome of the new technology by using the creative teamwork skill to motivate
  it well in order to provide the best quality for our client.</p>
+ <br>
+ <br>
 
  <h2>Creative Teamwork </h2>
 <p>  we have faith that the future is requires to keep pace with the renewed technology. So, our teamwork thinking to 
 take the advantage of the best software solutions.</p>
+<br>
+<br>
 
 <h2> Collaborative Environment</h2>
 <p> we have a professional team, work with the team spirit to provide the best quality services for clients.</p>
+<br>
+<br>
 
 <h2> Our services</h2>
 <p> Menovatech-Marketing is gladly serving more than 200 clients in Egypt & K.S.A,  providing them with 
@@ -100,6 +109,8 @@ highest value of digital marketing services.
 </ul>
 </p> 
 
+<br>
+<br>
 
 <h2>Our value</h2>
 <p>
@@ -114,17 +125,15 @@ requirements. Our team of experts keep focusing on -the client needs,  examining
  building his unique campaign that initiate with unique design through to product development delivery and results analysis.</li>
  </ul>
  </p>
- <br>
- <br>
- 
 
 
-                <div class="social d-flex align-items-center">
+
+                <!-- <div class="social d-flex align-items-center">
                   <h3 class="text-uppercase margin_right">share on : </h3>
                   <span><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></span>
                   <span><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></span>
                   <span><a class="google" href="#"><i class="fab fa-google-plus-g"></i></a></span>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

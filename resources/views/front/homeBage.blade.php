@@ -46,8 +46,8 @@ Menova Tech | Home Page
     <!--========== start services section =============-->
     <section id="services" class="text-center blue">
         <div class="container">
-            <h1 class="sec_title text-uppercase">OUR SERVICE</h1>
-            <p class="sec_desc">Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam quis notru exercit ation Lorem ipsum dolor sit amet.Veniam quis notru exercit.</p>
+            <h1 class="sec_title text-uppercase">OUR SERVICES</h1>
+            <!-- <p class="sec_desc">Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam quis notru exercit ation Lorem ipsum dolor sit amet.Veniam quis notru exercit.</p> -->
             <div class="row">
                 <a href="/services/digital-marketing" class="col-md-12 col-lg-3">
                     <div class="serv_item margin_top_4 wow fadeInUp" data-wow-delay="0s">
@@ -88,7 +88,8 @@ Menova Tech | Home Page
                     <div class="serv_item margin_top_4 wow fadeInUp" data-wow-delay="0s">
                         
                         <h2 class="margin_top margin_bottom serv_tit">Business development</h2>
-                        <p class="serv_desc"></p>
+                        <p class="serv_desc">Menovatech delivers different types of business development  
+                        including sales, marketing, project management, product management, and vendor management.</p>
                         <div class="serv_hover text-white bg_blue_grad">
                         </div>
                     </div>
@@ -100,7 +101,7 @@ Menova Tech | Home Page
     <section id="portfolio" class="text-center blue">
         <div class="container">
             <h1 class="sec_title text-uppercase">OUR PROJECTS</h1>
-            <p class="sec_desc">Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam quis notru exercit ation Lorem ipsum dolor sit amet.Veniam quis notru exercit.</p>
+            <!-- <p class="sec_desc">Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam quis notru exercit ation Lorem ipsum dolor sit amet.Veniam quis notru exercit.</p> -->
             <!-- <div class="toolbar mb2 mt2 margin_top_4">
                 <button class="fil_btn fil-cat active" data-rel="all">All</button>
                 <button class="fil_btn fil-cat" data-rel="web">Websites</button>
@@ -249,19 +250,19 @@ Menova Tech | Home Page
                
                     <div class="counter_data text-center col-md-6 col-lg-4">
                         <i class="fas fa-users text_green counter_icon"></i>
-                        <h2 class="counter_value">200</h2>
+                        <h2 class="counter_value">20</h2>
                         <h3 class="text-uppercase counter_tit">Happy Clients</h3>
                     </div>
 
                     <div class="counter_data text-center col-md-6 col-lg-4">
                         <i class="fas fa-project-diagram text_green counter_icon"></i>
-                        <h2 class="counter_value">300</h2>
+                        <h2 class="counter_value">4</h2>
                         <h3 class="text-uppercase counter_tit">Projects</h3>
                     </div>
 
                     <div class="counter_data text-center col-md-6 col-lg-4">
                         <i class="fas fa-calendar-alt text_green counter_icon"></i>
-                        <h2 class="counter_value">20</h2>
+                        <h2 class="counter_value">3</h2>
                         <h3 class="text-uppercase counter_tit">Events</h3>
                     </div>
                   
@@ -297,7 +298,7 @@ Menova Tech | Home Page
                                                 <i class="fas fa-mobile-alt margin_right info_icon"></i>
                                                 <div>
                                                     <p class="text-uppercase text_bold">phone</p>
-                                                    <p class="text-uppercase"> <a href="tel:+201005819141">+20 100 5819 141</a></p>
+                                                    <p class="text-uppercase"> <a href="tel:+201005819141">+20 100 117 3593</a></p>
                                                 </div>
                                             </div>
                                             <div class="d-flex contact_item align-items-center margin_bottom align-content-center">
@@ -314,7 +315,8 @@ Menova Tech | Home Page
                                                     <p class="text-uppercase">Sunday-Thursday 9.00AM to 5.00PM.</p>
                                                 </div>
                                             </div>
-                                            <a id="send_message" class="d-inline-block btn_style blu_grad_btn text-uppercase text-white" href="#">send message</a>
+                                            <a href="https://www.facebook.com/Menovatech" target='_blank'><i class="fab fa-facebook fa-2x"></i> <span class="pl-3"> Find us on Facebook!</span></a>
+                                            <!-- <a id="send_message" class="d-inline-block btn_style blu_grad_btn text-uppercase text-white" href="#">send message</a> -->
                                         </div>
                                         <div class="contact_popup animated fadeInUp">
                                             <form id="contact_form" action="http://ah-theme.com/zagency/demo/contact.php" method="post">

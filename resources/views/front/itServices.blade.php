@@ -48,6 +48,8 @@ Menovatech can provide the expertise to help you build a strategy that is right 
 <h2>Our Vision</h2>
 <p> We seek in Menova with our experienced teamwork to be a Trusted partner to provide IT Supporting, IT Outsourcing Services and all 
 IT Services in Egypt and Middle East Region. We seek to satisfy our clients’ needs in professional and innovated manners.
+<br>
+<br>
 </p>
 <h2> Our Values </h2>
 <ul class="bullet"> 
@@ -78,15 +80,13 @@ of our business partners. However, the following is a list of common reasons why
 <li>	Architecture & Planning </li>
 <li>	IT Outsourcing Services  </li>
 </ul>
-<br>
-<br>
 
-                <div class="social d-flex align-items-center">
+                <!-- <div class="social d-flex align-items-center">
                   <h3 class="text-uppercase margin_right">share on : </h3>
                   <span><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></span>
                   <span><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></span>
                   <span><a class="google" href="#"><i class="fab fa-google-plus-g"></i></a></span>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

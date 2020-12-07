@@ -80,15 +80,13 @@ Solutions which are presented to our customers with the most friendly and easy t
 <li>Mattagerna </li>                                                                 
 </ul>
 
-               <br>
-               <br>
-               <br>
-                <div class="social d-flex align-items-center">
+            
+                <!-- <div class="social d-flex align-items-center">
                   <h3 class="text-uppercase margin_right">share on : </h3>
                   <span><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></span>
                   <span><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></span>
                   <span><a class="google" href="#"><i class="fab fa-google-plus-g"></i></a></span>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
