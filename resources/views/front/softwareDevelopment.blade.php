@@ -51,7 +51,7 @@ Solutions which are presented to our customers with the most friendly and easy t
  <br>
 
  <h2>Our Values</h2>
- <ul class="bullet">
+ <ul class="bullet"> 
 <li>	Innovative  </li>
 <li>	Experience </li>
 <li>	Flexibility </li>
