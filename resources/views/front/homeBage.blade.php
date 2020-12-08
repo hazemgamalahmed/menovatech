@@ -19,7 +19,7 @@ Menova Tech | Home Page
                 <div class="col-md-12 col-lg-6 padding_right">
                     <div class="hero_content">
                         <h1 class="text-uppercase hero_tit text_animation" data-in-effect="bounceIn">START YOUR BUSINESS WITH MENOVATECH</h1>
-                        <p class="hero_desc wow fadeInDown" data-wow-delay="1.5s">Menovatech is a platform that provides all IT Supporting Services, IT Software Development Solutions and Digital Marketing Services. We deliver different levels of IT Supporting, IT Outsourcing Services, Software Development Solutions and all IT Services depending upon the nature and requirements of our partners and clients.
+                        <p class="hero_desc wow fadeInDown" data-wow-delay="1.5s">Menovatech is a platform that provides all IT Supporting Services, Business Development, IT Software Development Solutions and Digital Marketing Services. We deliver different levels of IT Supporting, IT Outsourcing Services, Software Development Solutions and all IT Services depending upon the nature and requirements of our partners and clients.
 
                         </p>
                     </div>
@@ -298,7 +298,7 @@ Menova Tech | Home Page
                                                 <i class="fas fa-mobile-alt margin_right info_icon"></i>
                                                 <div>
                                                     <p class="text-uppercase text_bold">phone</p>
-                                                    <p class="text-uppercase"> <a href="tel:+201005819141">+20 100 117 3593</a></p>
+                                                    <p class="text-uppercase"> <a href="tel:+201005819141">+20 1550 467 460</a></p>
                                                 </div>
                                             </div>
                                             <div class="d-flex contact_item align-items-center margin_bottom align-content-center">

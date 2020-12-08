@@ -18,7 +18,7 @@ Venice Decor | About Us Page
 <main class="main_site">
     <div class="top_section d-flex align-items-center">
       <div class="container">
-        <h1 class="text-uppercase text-center page_title text_bold margin_top_4">about agency</h1>
+        <h1 class="text-uppercase text-center page_title text_bold margin_top_4">About MenovaTech</h1>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -58,7 +58,7 @@ Venice Decor | About Us Page
                 <h3 id="vision" class="fillter_btn">Vision</h3>
               </div>
               <div class="accordion_tab animated fadeInUp open" data-target="story">
-              Menova is a platform was founded in 2019, We provide all IT Supporting Services, IT Software Development Solutions and Digital Marketing Services. We deliver different levels of IT Supporting, IT Outsourcing Services, Software Development Solutions and all IT Services depending upon the nature, situations and requirements of our clients and partners. We have an experienced teamwork and have a big network of freelancers. And we seek to be a trusted partner to provide all the above IT Services in Egypt and Middle East Region.              </div>
+              Menova is a platform was founded in 2019, We provide all IT Supporting Services, IT Software Development Solutions, Business development and Digital Marketing Services. We deliver different levels of IT Supporting, IT Outsourcing Services, Software Development Solutions and all IT Services depending upon the nature, situations and requirements of our clients and partners. We have an experienced teamwork and have a big network of freelancers. And we seek to be a trusted partner to provide all the above IT Services in Egypt and Middle East Region.              </div>
               <!-- <div class="accordion_tab animated fadeInUp" data-target="mission">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
               </div> -->
@@ -79,7 +79,7 @@ We seeks in Menovatech to be Trusted partner for all IT Support Services, IT Out
           </div>
           <div class="col-md-12 col-lg-6 text-white padding_left_4">
             <h2 class="text-capitalize">we help you to find what you want</h2>
-            <p>  We provide IT Software Development Solutions and Digital Marketing Services. 
+            <p>  We provide IT Software Development Solutions, Business Development and Digital Marketing Services. 
             We deliver different levels of IT Supporting,
              IT Outsourcing Services, Software Development Solutions and all IT Services.</p>
           </div>
