@@ -1,7 +1,7 @@
 <header class="site_header fixed-top w-100">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="/"><img src="/front/img/logo.png" height="35px;" alt="pic"></a>
+        <a class="navbar-brand" href="/"><img src="/front/img/logo.png" height="45px;" alt="pic"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>

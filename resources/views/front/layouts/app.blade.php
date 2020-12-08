@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
     <!-- Favicons -->
-    <link rel="icon" href="/myicon.ico" sizes="16x16" type="image/png">
+    <link rel="icon" href="/front/img/icon.png" sizes="16x16" type="image/png">
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="/front/css/inc/plugins.css">
     <!-- CSS Global Compulsory -->
