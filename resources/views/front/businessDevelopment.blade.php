@@ -60,7 +60,7 @@ take the advantage of the best software solutions.</p>
 <br>
 
 <h2> Our services</h2>
-<p> Menovatech-Marketing is gladly serving more than 200 clients in Egypt & K.S.A,  providing them with 
+<p> Menovatech-Marketing is gladly serving more than 20 clients in Egypt & K.S.A,  providing them with 
 highest value of Business Development, IT Services, Software Development and Digital Marketing Services.
 <ul class="bullet">
 <li>	Sales  </li>

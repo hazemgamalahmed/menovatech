@@ -77,7 +77,7 @@ take the advantage of the best software solutions.</p>
 <br>
 
 <h2> Our services</h2>
-<p> Menovatech-Marketing is gladly serving more than 200 clients in Egypt & K.S.A,  providing them with 
+<p> Menovatech-Marketing is gladly serving more than 20 clients in Egypt & K.S.A,  providing them with 
 highest value of digital marketing services.
 <ul class="bullet">
 <li>	Advertising Agencies  </li>

@@ -53,7 +53,7 @@ Menova Tech | Home Page
                     <div class="serv_item margin_top_4 wow fadeInUp" data-wow-delay="0s">
                     <i class="fas fa-bullhorn fa-2x text-dark"></i>
                        <h2 class="margin_top margin_bottom serv_tit">Digital Marketing</h2>
-                        <p class="serv_desc">We are the fastest growing Digital Marketing and web design Company, managed to approve our success in
+                        <p class="serv_desc text-muted">We are the fastest growing Digital Marketing and web design Company, managed to approve our success in
                          internet solutions field in a short period of time.
                         </p>
                         <div class="serv_hover text-white bg_blue_grad">
@@ -65,7 +65,7 @@ Menova Tech | Home Page
                     <div class="serv_item margin_top_4 wow fadeInUp" data-wow-delay="0s">
                     <i class="fas fa-project-diagram fa-2x text-dark"></i>
                         <h2 class="margin_top margin_bottom serv_tit">IT <div></div> Services</h2>
-                        <p class="serv_desc">Menovatech delivers different levels of IT Supporting, IT Outsourcing
+                        <p class="serv_desc text-muted">Menovatech delivers different levels of IT Supporting, IT Outsourcing
                          and all IT Services depending upon the nature and situations of our business partners.</p>
                         <div class="serv_hover text-white bg_blue_grad">
                         </div>
@@ -76,7 +76,7 @@ Menova Tech | Home Page
                     <div class="serv_item margin_top_4 wow fadeInUp" data-wow-delay="0s">
                     <i class="fas fa-laptop-code fa-2x text-dark"></i>
                         <h2 class="margin_top margin_bottom serv_tit">Software Development</h2>
-                        <p class="serv_desc">We have our experienced teamwork and also have a big network of freelancers with many projects categorized 
+                        <p class="serv_desc text-muted">We have our experienced teamwork and also have a big network of freelancers with many projects categorized 
                         according industries,
                          You will get your App in a professional and fast way.</p>
                         <div class="serv_hover text-white bg_blue_grad">
@@ -88,7 +88,7 @@ Menova Tech | Home Page
                     <div class="serv_item margin_top_4 wow fadeInUp" data-wow-delay="0s">
                     <i class="fas fa-chart-line fa-2x text-dark"></i>
                         <h2 class="margin_top margin_bottom serv_tit">Business Development</h2>
-                        <p class="serv_desc">Menovatech delivers different types of business development  
+                        <p class="serv_desc text-muted">Menovatech delivers different types of business development  
                         including sales, marketing, project management, product management, and vendor management.</p>
                         <div class="serv_hover text-white bg_blue_grad">
                         </div>
@@ -117,10 +117,10 @@ Menova Tech | Home Page
                      <img src="{{$project->pics}}" alt="pic">
                             </div>
                             <div class="portfolio_content">
-                                <h3 class="">{{$project->name}}</h3>
+                                <h3 class="font-weight-bold">{{$project->name}}</h3>
                             </div>
                         <div class="portfolio_content pt-3 pl-1 pr-1">
-                                <p class="">{{$project->description}}</p>
+                                <p class="text-muted">{{$project->description}}</p>
                             </div>
                         </a>
                     </div>
@@ -298,7 +298,7 @@ Menova Tech | Home Page
                                                 <i class="fas fa-mobile-alt margin_right info_icon"></i>
                                                 <div>
                                                     <p class="text-uppercase text_bold">phone</p>
-                                                    <p class="text-uppercase"> <a href="tel:+201005819141">+20 1550 467 460</a></p>
+                                                    <p class="text-uppercase"> <a href="tel:+201005819141">+2 01550 467 460</a></p>
                                                 </div>
                                             </div>
                                             <div class="d-flex contact_item align-items-center margin_bottom align-content-center">
