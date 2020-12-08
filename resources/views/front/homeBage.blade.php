@@ -76,7 +76,7 @@ Menova Tech | Home Page
                     <div class="serv_item margin_top_4 wow fadeInUp" data-wow-delay="0s">
                     <i class="fas fa-laptop-code fa-2x text-dark"></i>
                         <h2 class="margin_top margin_bottom serv_tit">Software Development</h2>
-                        <p class="serv_desc text-muted">We have our experienced team and also a big network of freelancers with many projects categorized 
+                        <p class="serv_desc text-muted">We have our experienced team and a big network of freelancers with many projects categorized 
                         according industries,
                          You will get your app in a professional and fast way.</p>
                         <div class="serv_hover text-white bg_blue_grad">
