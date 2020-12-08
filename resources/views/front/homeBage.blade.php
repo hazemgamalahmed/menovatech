@@ -51,8 +51,8 @@ Menova Tech | Home Page
             <div class="row">
                 <a href="/services/digital-marketing" class="col-md-12 col-lg-3">
                     <div class="serv_item margin_top_4 wow fadeInUp" data-wow-delay="0s">
-                        
-                        <h2 class="margin_top margin_bottom serv_tit">Digital Marketing</h2>
+                    <i class="fas fa-bullhorn fa-2x text-dark"></i>
+                       <h2 class="margin_top margin_bottom serv_tit">Digital Marketing</h2>
                         <p class="serv_desc">We are the fastest growing Digital Marketing and web design Company, managed to approve our success in
                          internet solutions field in a short period of time.
                         </p>
@@ -63,7 +63,7 @@ Menova Tech | Home Page
 
                 <a href="/services/it-solutions" class="col-md-12 col-lg-3">
                     <div class="serv_item margin_top_4 wow fadeInUp" data-wow-delay="0s">
-                        
+                    <i class="fas fa-project-diagram fa-2x text-dark"></i>
                         <h2 class="margin_top margin_bottom serv_tit">IT <div></div> Services</h2>
                         <p class="serv_desc">Menovatech delivers different levels of IT Supporting, IT Outsourcing
                          and all IT Services depending upon the nature and situations of our business partners.</p>
@@ -74,8 +74,8 @@ Menova Tech | Home Page
 
                 <a href="/services/software-development" class="col-md-12 col-lg-3">
                     <div class="serv_item margin_top_4 wow fadeInUp" data-wow-delay="0s">
-                        
-                        <h2 class="margin_top margin_bottom serv_tit">Software development</h2>
+                    <i class="fas fa-laptop-code fa-2x text-dark"></i>
+                        <h2 class="margin_top margin_bottom serv_tit">Software Development</h2>
                         <p class="serv_desc">We have our experienced teamwork and also have a big network of freelancers with many projects categorized 
                         according industries,
                          You will get your App in a professional and fast way.</p>
@@ -86,8 +86,8 @@ Menova Tech | Home Page
 
                 <a href="/services/business-development" class="col-md-12 col-lg-3">
                     <div class="serv_item margin_top_4 wow fadeInUp" data-wow-delay="0s">
-                        
-                        <h2 class="margin_top margin_bottom serv_tit">Business development</h2>
+                    <i class="fas fa-chart-line fa-2x text-dark"></i>
+                        <h2 class="margin_top margin_bottom serv_tit">Business Development</h2>
                         <p class="serv_desc">Menovatech delivers different types of business development  
                         including sales, marketing, project management, product management, and vendor management.</p>
                         <div class="serv_hover text-white bg_blue_grad">
